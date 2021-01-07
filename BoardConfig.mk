@@ -23,6 +23,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := cedric_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # NFC
 NXP_CHIP_TYPE := pn554
